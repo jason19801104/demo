@@ -1,3 +1,9 @@
-Git is a version control system.
-Git is free software.
-function add();
+Git是一个分布式版本控制系统。
+
+Git是在GPL下分发的免费软件。
+
+Git有一个名为STEP的可变索引。
+
+Git跟踪文件的变化。
+
+我愚蠢的老板更喜欢斯文。
