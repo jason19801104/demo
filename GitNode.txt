@@ -1,0 +1,29 @@
+cd 切换目录
+pwd 查看当前目录
+
+git init 创建一个新的仓库
+
+git add [file name] 把工作区的文件添加到仓库的暂存区
+git commit -m "message" 把暂存区的文件提交到仓库分支区
+git status 查看暂存区的状态
+git log 查看已提交的版本记录
+git reset --hard HEAD~100 回退到第几个版本，也可以用commit_id
+git checkout -- [file] 把文件在工作区的修改全部撤销（其实是用版本库里的版本替换工作区的版本）
+git reset HEAD [file] 把暂存区的修改撤销掉（unstage），重新放回工作区
+git rm [file] 从版本库中删除该文件，并且git commit：
+
+
+
+git checkout -b dev 创建dev分支，然后切换到dev分支：
+git checkout -d dev 删除dev分支：
+git branch	查看当前分区
+git merge dev  命令用于合并指定分支到当前分支
+
+
+git remote add origin git@github.com:jason19801104/demo.git 关联远程仓库
+git pull --rebase origin master  把远程库同步到本地库
+git push origin master  把本地库同步到远程库 第一次推送加 -u
+git clone git@github.com:jason19801104/demo.git 克隆远程库到本地
+
+git remote -v 查看远程仓库
+git remote remove [name] 删除远程仓库点
